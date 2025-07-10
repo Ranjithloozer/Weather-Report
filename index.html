@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌦️ WeatherX - Live Forecast</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="weather-wrapper">
+    <header class="weather-header">
+      <h1>🌤️ WeatherX</h1>
+      <button id="modeToggle" title="Toggle Mode">🌓</button>
+    </header>
+
+    <section class="search-box">
+      <input type="text" id="cityInput" placeholder="🌍 Enter city name..." />
+      <button onclick="getWeather()">Get Weather</button>
+    
+    </section>
+
+    <section class="weather-card" id="weather">
+      <p class="info-text">🔎 Search a city to get started!</p>
+    </section>
+
+    <section class="forecast" id="forecastSection" style="display: none;">
+      <h2>📅 5-Day Forecast</h2>
+      <div class="forecast-grid" id="forecastContainer"></div>
+    </section>
+
+    <footer class="footer">
+      <p>⚡ Powered by OpenWeatherMap | Made by <strong>Ranjith</strong></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
