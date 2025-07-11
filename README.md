@@ -12,5 +12,7 @@ public APIs (like OpenWeatherMap) and displays the results via console or a GUI 
 - 🖥️ Console-based or Swing GUI interface (optional)
 - 📦 Lightweight and customizable
 
+URL:
+https://ranjithloozer.github.io/Weather-Report/
 
 
